@@ -118,7 +118,7 @@ Call the method `StreamingHSTrees` to simulate data streaming process and get a 
 final_scores = StreamingHSTrees(X_new, psi, t, h)
 ~~~~
 
-#### 4. Evaluation
+### 4. Evaluation
 
 Call `accuracy_value` to evaluate the anomaly detection in step 3.
 
