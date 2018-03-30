@@ -75,7 +75,7 @@ This method is the major sequence of evaluating anomalies in streaing data. It t
 `h`: The maximum depth of each HSTree.
 
 #### 4. `accuracy_value(scores, y, num)`
-The method `accuracy_value` is a helper method to evaluate the test results. It prints four values: `True Positive`, `False Positive`, `True Negative` and `False Netative`. The inputs are:
+The method `accuracy_value` is a helper method to evaluate the test results. It prints four values: `True Positive`, `False Positive`, `True Negative` and `False Negative`. The inputs are:
 
 `scores`: A `List` of scores. It should be the return value of `StreamingHSTrees()` method.
 
